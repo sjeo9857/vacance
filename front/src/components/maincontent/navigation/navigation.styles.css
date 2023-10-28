@@ -1,0 +1,48 @@
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #A27B5C;
+    font-weight: 300;
+    margin-top: 0px;
+    padding: 0px;
+    align-content: center;
+    height: 90px;
+
+}
+
+.nav-items > .item {
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 10px; 
+    margin-top: 20px;
+    line-height: 150%;
+}
+
+.nav-logo{
+    margin-left: 40px;
+    width: 73%;
+    margin-top: 5px;
+    height: 80px;
+}
+
+.item:hover {
+    border: 1px solid white;
+}
+.item.active {
+    font-weight: 800;
+    line-height: 138%;
+}
+
+.nav-logo:hover {
+    border: 1px solid white;
+}
+
+
+

@@ -1,0 +1,155 @@
+.blog-post-display {
+    display:flex;
+    width: 1450px;
+    height: 450px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.blog-post-display:hover {
+    transition: 0.2s ease;
+    transform: scale(1.03); 
+}
+
+.bootstrap {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.blog-image {
+    margin-top: 0;
+    width: 650px; 
+    height: 450px;
+    border-radius: 25px 0 0 25px;
+    margin-left: 0;
+}
+
+.blog-title {
+    color: #1a1a1a;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 30px;   
+    margin-bottom: 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blog-author {
+    color: #A27B5C;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 50px;
+}
+.blog-texts {
+    color: #464646;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 11;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* .overall {
+    
+} */
+.overall .blog-ReadMore-Arrow {
+    color: #382e53;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.overall {
+    margin-top: 12px;
+}
+.overall .svg-arrow {
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+.blog-ReadMore-Arrow:hover {
+    font-weight: bold;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.heart {
+    color: black;
+    opacity: 0.3;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.heart:hover {
+    animation: heartbeat 1s infinite;
+    fill: red;
+    color: red;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+.heart-count {
+    display: inline;
+    margin-left: 5px;
+    color: #382e53;
+}
+/* .overall .svg-like {
+    width: 60px;
+    height: 25px;
+    padding-bottom: 0px;
+} */
+.blog-tags {
+    display: inline-block;
+    background-color: buttonface;
+    color: #382e53;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    height: 25px;
+    width: auto;
+    padding: 2px 10px 25px 10px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.btn-scrollTop{
+    position: fixed;
+    bottom: 5px;
+    font-size: 2.5rem;
+    z-index: 5;
+    cursor: pointer;
+    color: black;
+    right: 2%;
+    background: none;
+    border-radius: 50px;
+    padding: 0px;
+    border: none;
+    opacity: 0.7;
+}

@@ -1,0 +1,126 @@
+.sign-in-page{
+    background-color: #FCF7EF;
+
+}
+.filler {
+    height: 94px;
+    background-color: #FCF7EF;
+}
+.login-page {
+    height: 700px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    /* border-color: rgba(0, 0, 0, 0.19); */
+    border-color: #0505052a;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input-email , .input-password{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 48%;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    height: 40px;
+}
+.image-logo {
+    width: 35%;
+    height: 30%;
+    background-color: white;
+    margin-left: 32.51%;
+}
+
+.image-logo:hover {
+    border: 0;
+}
+.sign-in {
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.sign-h {
+    font-family: Roboto, sans-serif;
+    font-stretch: normal;
+    color: #1e1e1e;
+    letter-spacing: -.3px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.39px;
+}
+
+.email {
+    padding-top: 55px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.emails {
+    color: #737373;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.password {
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.password-text {
+    color: #737373;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.login-button {
+    display:block;
+    margin: 0 auto;
+    width: 350px;
+    height: 48px;
+    background-color: #A27B5C;
+    border-radius: 6px;
+    border: 0;
+}
+.submit {
+    margin-top: 45px;
+}
+
+.final-line {
+    text-align: center;
+    margin-top: 18px;
+}
+.account {
+    color: #737373;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.regi {
+    color: #A27B5C;
+    font-family: "Inter-Regular", Helvetica;
+font-size: 15px;
+font-weight: 400;
+    cursor: pointer;
+}
+
+.regi:hover {
+    font-weight: bold;
+
+    filter: grayscale(100%)
+}

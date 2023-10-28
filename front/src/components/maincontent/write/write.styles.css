@@ -1,0 +1,117 @@
+.write-god {
+    background-color: white;
+}
+
+.write {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.write label {
+    text-align: left;
+    display: block;
+}
+
+.write h1 {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #A27B5C;
+    margin-bottom: 30px;
+}
+
+.write input, .write textarea, .write select{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: block; 
+}
+
+.quill-editor {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: block;
+}
+
+.ql-picker-label {
+    margin-top: 10px;
+}
+
+.ql-picker-label::before {
+    margin-right: 15px;
+}
+
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+    margin-right: 3px;
+}
+
+.ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+    top: 147%
+}
+
+.quill {
+    height: 1000px;
+}
+.image-reactquill {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block; 
+    width: 800px;
+}
+.image-reactquill > .ql-container.ql-snow {
+    height: 400px;
+}
+.image-reactquill > .ql-toolbar.ql-snow {
+    height: 65px;
+}
+
+::placeholder {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.ql-editor.ql-blank::before {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    left: 0px;
+
+}
+
+.babobabo {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block; 
+    width: 800px;
+
+}
+
+.babobabo > .ql-toolbar.ql-snow {
+    height: 65px;
+}
+
+.babobabo > .ql-container.ql-snow {
+    height: 1000px;
+}
+
+.write button {
+    background: #A27B5C;
+    color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center; 
+    margin-top: 10px;
+    border: 0;
+    margin-bottom: 50px;
+}

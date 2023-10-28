@@ -1,0 +1,103 @@
+.blogcontentpage {
+    margin-top: 770px;
+    width: 100%;
+    color: black;
+}
+
+.type-search {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 41px;
+}
+.tired {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 41px;
+
+}
+.search-select {
+    cursor: pointer;
+    border-radius: 5px 0px 0px 5px;
+    /* border: 1px solid black; */
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    padding-left: 5px;
+    background-color: white;
+    height: 100%;
+    border-color: #dadce0;
+
+}
+
+.search-select > .username {
+    cursor:pointer;
+}
+
+.search-select > .blogtitle {
+    cursor: pointer;
+}
+
+.search-field {
+    margin:0;
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    /* border: 1px solid black; */
+    padding-left: 10px;
+    padding-top: 10;
+    padding-bottom: 0px;
+    height: 100%;
+}
+.search-button {
+    margin-top: 0px;
+    cursor: pointer;
+    border-color: white;
+    height: 41px;
+    border: 0;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    background-color: #A27B5C;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #f8f9fa;
+}
+.paginationOverall {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.page-item{
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px 25px 25px 25px;
+}
+.page-item .page-link {
+
+    border-color: #dadce0;
+    color: black;
+}
+
+.page-link:focus {
+    background-color: none;
+    color: none;
+    box-shadow: none;
+}
+
+.page-item.active .page-link {
+    background-color:#A27B5C;
+    background-color: #ddd;
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-left-color: #dadce0;
+    border-right-color: #dadce0;
+    border-color: #dadce0;
+}
+
+.button-styles-scroll-thingy {
+    scroll-behavior: smooth;
+}

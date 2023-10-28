@@ -1,0 +1,119 @@
+.register-page{
+    background-color: #FCF7EF;
+
+}
+.filler-register {
+    height: 94px;
+    background-color: #FCF7EF;
+}
+.register2-page {
+    height: 700px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    /* border-color: rgba(0, 0, 0, 0.19); */
+    border-color: #0505052a;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input-email-register , .input-password-register, .input-username-register{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 48%;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    height: 40px;
+}
+
+.image-logo-register {
+    width: 35%;
+    height: 30%;
+    background-color: white;
+    margin-left: 32.51%;
+}
+
+.image-logo-register:hover {
+    border: 0;
+}
+.register-i {
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.register-h {
+    font-family: Roboto, sans-serif;
+    font-stretch: normal;
+    color: #1e1e1e;
+    letter-spacing: -.3px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.39px;
+}
+.username-register {
+    padding-top: 40px;
+    background-color: white;
+    text-align: center;
+}
+.username {
+    color: #737373;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+}
+
+.email-register {
+    padding-top: 40px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.emails-register {
+    color: #737373;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.password-register {
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.password-text-register {
+    color: #737373;
+font-family: "Inter-Regular", Helvetica;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+.register-button {
+    display:block;
+    margin: 0 auto;
+    width: 350px;
+    height: 48px;
+    background-color: #A27B5C;
+    border-radius: 6px;
+    border: 0;
+}
+.submit-register {
+    margin-top: 45px;
+}
+
+
+.final-line-register {
+    text-align: center;
+    margin-top: 18px;
+}

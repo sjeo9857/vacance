@@ -1,0 +1,15 @@
+$my-color: #FCF7EF;
+
+.pagination-previous {
+    border-color: black;
+    background-color: $my-color;
+}
+
+.pagination {
+    &.active {
+        button {
+            background-color: green;
+            border-color: green;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-color {
+    display: inline-block;
+    width: 100%;
+    color: black;
+    position: 0;    
+    bottom: 0;
+    height: 200px;
+}
+
