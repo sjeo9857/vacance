@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
@@ -23,14 +24,17 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-quill": "^2.0.0",
+    "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
     "react-svg": "^16.1.23",
     "sass": "^1.66.1",
+    "serve": "^14.2.1",
+    "server": "^1.0.38",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node --max_old_space_size=2560 node_modules/.bin/react-scripts start",
+    "build": "node --max_old_space_size=2560 node_modules/.bin/react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -52,8 +56,12 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "react-router-dom": "^6.17.0"
-  }
+  "engines": {
+    "node": "v18.17.0",
+    "npm": "9.6.7"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

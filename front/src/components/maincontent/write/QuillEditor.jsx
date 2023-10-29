@@ -73,7 +73,7 @@ class QuillEditor extends React.Component {
             let formData = new FormData();
         
             formData.append("File", file);
-            fetch('http://localhost:2000/uploadfiles', {
+            fetch('https://dry-ravine-65913-bf22e3189720.herokuapp.com/uploadfiles', {
                 method: 'POST',
                 body: formData,
             })
@@ -90,7 +90,7 @@ class QuillEditor extends React.Component {
                         // console.log(source)
                         // console.log(resp.url)
                         // quill.insertEmbed(position, "image", {source});
-                        quill.insertEmbed(position, "image", {src: "http://localhost:2000/" + resp.url, alt: resp.fileName});
+                        quill.insertEmbed(position, "image", {src: "https://dry-ravine-65913-bf22e3189720.herokuapp.com/" + resp.url, alt: resp.fileName});
 
                         quill.setSelection(position + 1);
         

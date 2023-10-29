@@ -8,10 +8,10 @@ const multer = require('multer');
 const db = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
-        user: 'postgres',
-        password: 'password',
-        database: 'travelblog'
+        connectionString: process.env.DATABASE_URL,
+        ssl: {
+            rejectUnauthorized: false
+        }
     }
 })
 
@@ -44,19 +44,8 @@ let storage = multer.diskStorage({
 
 const upload = multer({storage: storage}).single("File");
 
-app.get('/profile/:id', (req, res) => {
-    const {id} = req.params;
-    let found = false;
-    database.users.forEach((user)=> {
-        if (user.id === id) {
-            found = true;
-            return res.json(user);
-        }
-        
-    })
-    if(!found){
-        res.status(400).json('not found');
-    }
+app.get('/', (req, res) => {
+    res.send('it is working')
 })
 
 app.post('/signin', (req, res) => {
@@ -107,6 +96,7 @@ app.post('/register', (req, res) => {
               joined: new Date()
             })
             .then(user => {
+            console.log(user);
               res.json(user[0]);
             })
         })

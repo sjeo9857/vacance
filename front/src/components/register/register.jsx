@@ -29,7 +29,7 @@ class Register extends Component {
         this.setState({username: e.target.value});
     }
     onSubmitConfirmation = () => {
-        fetch('http://localhost:2000/register', {
+        fetch('https://dry-ravine-65913-bf22e3189720.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -49,6 +49,9 @@ class Register extends Component {
                 }, 1000)
             }
         })
+        .catch(error => {
+            console.error('Error:', error);
+          });
     }
 
     render() {
@@ -56,7 +59,7 @@ class Register extends Component {
             <div>
             <div className="register-page">
                 <div className="filler-register"></div>  
-                <form onSubmiy = {(e) => this.handleSubmit(e)} required>
+                <form onSubmit = {(e) => this.handleSubmit(e)} required>
                 <div className = "register2-page">
                     <img className="image-logo-register"src={logo} alt="logo"/>
                     <div className="register-i">

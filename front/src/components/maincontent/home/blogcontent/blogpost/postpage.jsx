@@ -10,7 +10,7 @@ function Postpage () {
     const identification = id;
 
     useEffect(() => {
-        fetch('http://localhost:2000/getBlogs', {
+        fetch('https://dry-ravine-65913-bf22e3189720.herokuapp.com/getBlogs', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

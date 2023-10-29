@@ -37,7 +37,7 @@ class Write extends Component {
 
         let formData = new FormData();
         formData.append("File", selectedFile);
-        fetch('http://localhost:2000/uploadimage', {
+        fetch('https://dry-ravine-65913-bf22e3189720.herokuapp.com/uploadimage', {
             method: 'POST',
             body: formData
         })
@@ -46,7 +46,7 @@ class Write extends Component {
             if (resp.success) {
                 this.setState({files: [...this.state.files, selectedFile]})
 
-                const imageSrc = "http://localhost:2000/" + resp.url;
+                const imageSrc = "https://dry-ravine-65913-bf22e3189720.herokuapp.com/" + resp.url;
                 const imageAlt = resp.fileName;
                 const imageStyles = {
                     margin: '0',
@@ -95,7 +95,7 @@ class Write extends Component {
 
             formData.append('author', this.state.author);
             
-            fetch('http://localhost:2000/blogs', {
+            fetch('https://dry-ravine-65913-bf22e3189720.herokuapp.com/blogs', {
                 method: 'POST',
                 body: formData,
             })

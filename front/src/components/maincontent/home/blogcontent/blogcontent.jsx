@@ -27,7 +27,7 @@ class Blogcontent extends Component {
 
     componentDidMount() {
         if (this.state.identification_blog.length === 0 && !this.state.componentMounted) {
-            fetch('http://localhost:2000/getBlogs', {
+            fetch('https://dry-ravine-65913-bf22e3189720.herokuapp.com/getBlogs', {
                 method: 'GET',
             })
             .then(res => res.json())
